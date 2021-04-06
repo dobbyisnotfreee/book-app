@@ -17,7 +17,7 @@ box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.2);
 padding: 15px;
 margin-top: 15px;
 
-${props => props.type === `error` && css`
+${props => props.type === `success` && css`
 background-color: ForestGreen;
 border : none;
 color:white;
